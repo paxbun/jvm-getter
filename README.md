@@ -85,6 +85,16 @@ jvm-getter = { version = "0.1", default-features = false, features = [
 ] }
 ```
 
+## MSRV
+
+To see the MSRV of each version of `jvm-getter`, please refer to [MSRV.md](./MSRV.md).
+
+## Supported Devices
+
+`jvm-getter` is tested automatically on physical devices using
+[Firebase Test Lab](https://firebase.google.com/docs/test-lab). For the list of the tested devices,
+please refer to [DEVICES.md](./DEVICES.md).
+
 ## Contribution
 
 If you find a device on which `jvm-getter` doesn’t run correctly, please report it. If you also
